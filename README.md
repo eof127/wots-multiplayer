@@ -1,5 +1,8 @@
 # WotS Multiplayer — a live multiplayer campaign for War on the Sea
 
+## ⬇ [Download WotS_Multiplayer_v0.28.0.zip](https://github.com/eof127/wots-multiplayer/releases/download/v0.28.0/WotS_Multiplayer_v0.28.0.zip)
+Version 0.28.0 (beta), 809 KB · VirusTotal: [0 / 66](https://www.virustotal.com/gui/file/85ec18f53bd79eb6e71bd343e7d0eb7f8b61de20efe7458d155477f017ee07d0) · [Release page](https://github.com/eof127/wots-multiplayer/releases/tag/v0.28.0) · Install: see below
+
 An unofficial, free and open-source (MIT) fan mod that turns the War on the Sea Solomons campaign into a live game: one
 player commands the Allies, the other Japan, on a shared campaign map in real time, and every battle between them is
 fought live, each player commanding their own ships and planes. Up to four more players can join a side as subordinates
@@ -8,10 +11,12 @@ of its commander. Not affiliated with or endorsed by Killerfish Games.
 **Version 0.28.0 (beta).** Every player needs War on the Sea on Steam (the same game version) and the same mod version.
 
 ## Download and install
-**Download: [WotS_Multiplayer_v0.28.0.zip](https://github.com/eof127/wots-multiplayer/releases/download/v0.28.0/WotS_Multiplayer_v0.28.0.zip)** (809 KB; also on the [release page](https://github.com/eof127/wots-multiplayer/releases/tag/v0.28.0); VirusTotal:
-[0 / 66](https://www.virustotal.com/gui/file/85ec18f53bd79eb6e71bd343e7d0eb7f8b61de20efe7458d155477f017ee07d0)). It contains the mod plus an unmodified copy of BepInEx 5.4.23.6 (the mod loader): copy the contents of its "Game folder" next to `WarOnTheSea.exe`, start the game and use the
-new **MULTIPLAYER** button under CAMPAIGN. The full player guide (install, room codes, connecting over the Internet or a
-VPN, rules, settings, uninstall, safety) is [`release/README.txt`](release/README.txt), also inside the zip.
+The [zip](https://github.com/eof127/wots-multiplayer/releases/download/v0.28.0/WotS_Multiplayer_v0.28.0.zip) (link at the top) contains the mod plus an unmodified copy of BepInEx 5.4.23.6 (the mod loader):
+1. Close the game. In Steam, right-click War on the Sea → Manage → Browse local files.
+2. Copy the contents of the zip's "Game folder" next to `WarOnTheSea.exe`.
+3. Start the game and use the new **MULTIPLAYER** button under CAMPAIGN.
+
+The full player guide (install, room codes, connecting over the Internet or a VPN, rules, settings, uninstall, safety) is [`release/README.txt`](release/README.txt), also inside the zip.
 
 ## Patch notes — v0.28.0 compared with the base game
 
