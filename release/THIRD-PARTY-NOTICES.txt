@@ -1,0 +1,43 @@
+Third-party software bundled with WotS Multiplayer
+===================================================
+
+The "Game folder" in this download contains BepInEx, an unmodified copy of its
+x64 release (version 5.4.23.6), which loads the mod into the game. These files keep
+their own licenses; the MIT license in LICENSE.txt does not apply to them.
+Full license texts are in the "licenses" folder.
+
+BepInEx 5.4.23.6 (BepInEx.dll, BepInEx.Preloader.dll, BepInEx.Harmony.dll,
+HarmonyXInterop.dll, doorstop_config.ini)
+  License: GNU Lesser General Public License v2.1 — licenses\BepInEx-LGPL-2.1.txt
+  Source of this exact version:
+           https://github.com/BepInEx/BepInEx/tree/v5.4.23.6
+           (source archive: https://github.com/BepInEx/BepInEx/archive/refs/tags/v5.4.23.6.zip)
+  Release: https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.6
+
+Unity Doorstop 4.6.0 (winhttp.dll, .doorstop_version), part of the BepInEx release
+  License: GNU Lesser General Public License v2.1 — licenses\BepInEx-LGPL-2.1.txt
+           (the same license text)
+  Source of this exact version:
+           https://github.com/NeighTools/UnityDoorstop/tree/v4.6.0
+
+HarmonyX 2.9.0 (0Harmony.dll, 0Harmony20.dll), a fork of Harmony
+  License: MIT — licenses\HarmonyX-MIT.txt (HarmonyX and Harmony notices)
+  Source:  https://github.com/BepInEx/HarmonyX/tree/v2.9.0
+
+MonoMod (MonoMod.RuntimeDetour.dll, MonoMod.Utils.dll)
+  License: MIT — licenses\MonoMod-MIT.txt
+  Source:  https://github.com/MonoMod/MonoMod
+
+Mono.Cecil (Mono.Cecil.dll, Mono.Cecil.Mdb.dll, Mono.Cecil.Pdb.dll, Mono.Cecil.Rocks.dll)
+  License: MIT — licenses\Mono.Cecil-MIT.txt
+  Source:  https://github.com/jbevain/cecil
+
+The BepInEx files are distributed unmodified; you can replace them with the
+identical official release BepInEx_win_x64_5.4.23.6 from the release page above.
+The LGPL lets you replace or modify these libraries: the mod loads whatever
+BepInEx 5.4.x files are in the game folder.
+
+War on the Sea is a game by Killerfish Games. It is not included in this download,
+and this mod is an unofficial fan project, not affiliated with or endorsed by
+Killerfish Games. The mod changes nothing on disk in the game's own files: it
+patches the game in memory while it runs.

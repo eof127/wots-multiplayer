@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Fast logic tests for game-independent plugin code. Run: tools\Test.ps1 -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\src\WotSMultiplayer\Features\TimeControl\SpeedRules.cs" Link="SpeedRules.cs" />
+    <Compile Include="..\..\src\WotSMultiplayer\Net\*.cs" LinkBase="Net" />
+    <Compile Include="..\..\src\WotSMultiplayer\Core\BuildInfo.cs" Link="BuildInfo.cs" />
+    <Compile Include="..\..\src\WotSMultiplayer\Core\MiniJson.cs" Link="MiniJson.cs" />
+    <Compile Include="..\..\src\WotSMultiplayer\Core\SideSwap.cs" Link="SideSwap.cs" />
+    <Compile Include="..\..\src\WotSMultiplayer\Core\SnapshotCodec.cs" Link="SnapshotCodec.cs" />
+    <Compile Include="..\..\src\WotSMultiplayer\Features\MpCampaign\OrderRules.cs" Link="OrderRules.cs" />
+    <Compile Include="..\..\src\WotSMultiplayer\Features\MpCampaign\EncounterRules.cs" Link="EncounterRules.cs" />
+    <Compile Include="..\..\src\WotSMultiplayer\Features\MpCampaign\LockRules.cs" Link="LockRules.cs" />
+    <Compile Include="..\..\src\WotSMultiplayer\Features\MpBattle\RetreatRules.cs" Link="RetreatRules.cs" />
+  </ItemGroup>
+</Project>

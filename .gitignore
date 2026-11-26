@@ -1,0 +1,30 @@
+# Decompiled / dumped game code: local reading aid only, never publish.
+analysis/
+# Private: game logs (player names, IP addresses, folder paths) and save backups
+logs/
+*.log
+save_backup_*/
+# Built release packages (upload them as release files instead)
+release/out/
+# Local analysis tools (the decompiler install) — not part of the mod
+tools/ilspycmd/
+# Build output
+tools/bin/
+tools/**/bin/
+tools/**/obj/
+src/**/bin/
+src/**/obj/
+tests/**/bin/
+tests/**/obj/
+*.user
+.vs/
+# Development notes and test helpers: kept on the developer's PC, not published
+docs/
+tools/AsmDump/
+tools/InstanceUnlock/
+tools/NetPeer/
+tools/Init-Repo.ps1
+tools/Restart-Client.ps1
+tools/Start-Game.ps1
+tools/Start-TwoInstances.ps1
+tools/Update-Analysis.ps1
