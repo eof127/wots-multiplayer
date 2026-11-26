@@ -8,8 +8,8 @@ of its commander. Not affiliated with or endorsed by Killerfish Games.
 **Version 0.28.0 (beta).** Every player needs War on the Sea on Steam (the same game version) and the same mod version.
 
 ## Download and install
-Get `WotS_Multiplayer_v0.28.0.zip` from the **Releases** page. It contains the mod plus an unmodified copy of BepInEx
-5.4.23.6 (the mod loader): copy the contents of its "Game folder" next to `WarOnTheSea.exe`, start the game and use the
+**Download: [WotS_Multiplayer_v0.28.0.zip](https://github.com/eof127/wots-multiplayer/releases/download/v0.28.0/WotS_Multiplayer_v0.28.0.zip)** (809 KB; also on the [release page](https://github.com/eof127/wots-multiplayer/releases/tag/v0.28.0); VirusTotal:
+[0 / 66](https://www.virustotal.com/gui/file/85ec18f53bd79eb6e71bd343e7d0eb7f8b61de20efe7458d155477f017ee07d0)). It contains the mod plus an unmodified copy of BepInEx 5.4.23.6 (the mod loader): copy the contents of its "Game folder" next to `WarOnTheSea.exe`, start the game and use the
 new **MULTIPLAYER** button under CAMPAIGN. The full player guide (install, room codes, connecting over the Internet or a
 VPN, rules, settings, uninstall, safety) is [`release/README.txt`](release/README.txt), also inside the zip.
 
